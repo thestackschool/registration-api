@@ -1,0 +1,12 @@
+INSERT INTO `registration`.`city_master` (`city_id`, `state_id`, `city_name`) VALUES ('101', '1', 'DALLAS');
+INSERT INTO `registration`.`city_master` (`city_id`, `state_id`, `city_name`) VALUES ('102', '1', 'AUSTIN');
+INSERT INTO `registration`.`city_master` (`city_id`, `state_id`, `city_name`) VALUES ('103', '2', 'SAN DIEGO');
+INSERT INTO `registration`.`city_master` (`city_id`, `state_id`, `city_name`) VALUES ('104', '2', 'LOS ANGELES');
+INSERT INTO `registration`.`city_master` (`city_id`, `state_id`, `city_name`) VALUES ('105', '3', 'LUCKNOW');
+INSERT INTO `registration`.`city_master` (`city_id`, `state_id`, `city_name`) VALUES ('106', '3', 'GHAZIABAD');
+INSERT INTO `registration`.`city_master` (`city_id`, `state_id`, `city_name`) VALUES ('107', '4', 'BANGULURU');
+INSERT INTO `registration`.`city_master` (`city_id`, `state_id`, `city_name`) VALUES ('108', '5', 'SYDNEY');
+INSERT INTO `registration`.`city_master` (`city_id`, `state_id`, `city_name`) VALUES ('109', '6', 'BRISBANE');
+INSERT INTO `registration`.`city_master` (`city_id`, `state_id`, `city_name`) VALUES ('110', '7', 'KATHMANDU');
+INSERT INTO `registration`.`city_master` (`city_id`, `state_id`, `city_name`) VALUES ('111', '8', 'POKHARA');
+INSERT INTO `registration`.`city_master` (`city_id`, `state_id`, `city_name`) VALUES ('112', '8', 'KUSHMA');

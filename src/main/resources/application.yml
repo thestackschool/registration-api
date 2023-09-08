@@ -1,0 +1,38 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: root
+    url: jdbc:mysql://localhost:3306/registration
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+  mail:
+    host: smtp.gmail.com
+    password: sypscyroxnmjhjag
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: thestackschool@gmail.com
+
+reg-app:
+  messages:
+    regMailSubject: User Registration Success
+    regMailBodyTemplateFile: UNLOCK-ACC-EMAIL-BODY-TEMPLATE.txt
+
+#OpenAPI Properties
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+
+
+#http://localhost:9090/swagger-ui/index.html
